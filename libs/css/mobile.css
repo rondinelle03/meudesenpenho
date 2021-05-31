@@ -1,0 +1,236 @@
+@media screen and (max-width: 768px) {
+
+.inbox_people{
+	padding-left:0 !important;
+}
+
+.chat_img {
+    float: left;
+    width: 100%;
+    margin-bottom: 7px;
+}
+
+.chat_list {
+    border-top: 1px solid #dde4ea;
+    margin: 0 9px 0 0;
+    padding: 19px 11px 10px;
+    text-align: center;
+}
+
+.chat_ib h5 {
+    font-size: 0.8rem;
+
+ }
+
+ .chat_ib p {
+    font-size: 0.7rem;
+
+  }
+
+  .chat_people{
+  	position: relative;
+  }
+
+  .chat_ib h5 span {
+    float: right;
+    margin-top: 0;
+    position: absolute;
+    top: -4px;
+    right: 18px;
+}
+.received_withd_msg {
+    width: 80%;
+}
+.sent_msg {
+    float: right;
+    width: 80%;
+}
+	.bt-menu-mobile,#navegacao-inferior{
+		display: block !important;
+	}
+
+	.dropblack span img,#Menu,.dropblack  i,header .navegacao-topo,.filtros span,.btn-primary i{
+		display: none;
+	}
+
+	#navegacao-inferior{
+		
+		background:#fff;
+		position: fixed;
+		z-index: 80;
+		box-shadow: 0px -8px 14px rgba(13, 85, 141, 0.07);
+		width: 100%;
+		bottom:0;
+	}
+
+.tarefas-xm{
+	    margin-top: 36px !important;
+}
+
+.dataTables_wrapper {
+    overflow-y: auto;
+}
+
+#menuMovMobile #Menu{
+	padding: 35px 30px 30px 30px !important;
+}
+
+.hora-tarefa {
+    background: #eaeef2 url(../../img/time-ico.svg) no-repeat 5px 13px;
+    border-radius: 6px;
+    font-weight: bold;
+    padding: 12px 10px 11px 29px;
+    display: block;
+    text-align: center;
+}
+
+
+.atv-navegacao:after{
+	content: '';
+	width: 80%;
+	height: 5px;
+	background:#67CC78;
+	position: absolute;
+	bottom: 0;
+	left: 6px;
+}
+
+	.dropblack{
+		background: url(../../img/tres-pontinhos.svg) no-repeat center center;
+	}
+
+.btn-primary {
+    background: #0D86DD url(../../img/ico-visible.svg) no-repeat center center;
+    font-size: 14px;
+    padding: 29px 26px;
+    text-decoration: underline;
+    color: #fff;
+    border-color: #0D86DD;
+    border-radius: 6px;
+}
+
+footer{
+	padding-bottom: 100px;
+}
+	
+
+	footer, footer .text-end{
+		text-align: center !important;
+	}
+
+	.center-usuario img {
+	    margin-bottom: 10px;
+	    margin-top: -43px;
+	    position: relative;
+	    z-index: 120;
+	    width: 25%;
+}	
+
+	
+.filtros li a{
+	padding: 20px 28px;
+}
+
+.filtros li:last-child {
+    margin-left: 7px;
+}
+
+.ultimas-atualizacoes {
+    font-size: 1rem;
+}
+
+#bloco-filtro li {
+    display: inline-flex;
+    margin-bottom: 5px;
+}
+
+.user-detalhe {
+    position: relative;
+    right: 0;
+    top: 0;
+    font-size: 14px;
+    color: #6F8FA6;
+    padding-bottom: 20px;
+    display: block;
+}
+
+.porfiltro:before, .pordata:before {
+    left: 15px;
+    top: 16px;
+}
+	#logo-cliente {
+	    margin: 24px 0;
+	    display: block;
+	}
+
+	#logo-cliente img{
+		width: 50%;
+	}
+
+	.remote-ico {
+	    margin: 0;
+	    position: absolute;
+	    
+	    right: 8px;
+	    top: 25px;
+	}
+
+	.titulo {
+	    display: inline-block;
+	    background: rgba(111, 143, 166, 0.5);
+	    color: #fff;
+	    font-size: 1rem;
+	    padding: 12px 15px;
+	    border-radius: 6px;
+	    margin: 18px 0;
+	}
+
+	.detalhe-topo img{
+		display: none;
+	}
+
+	.detalhe-topo {
+	    background: rgba(111, 143, 166, 0.5);
+	    border-radius: 9px;
+	    float: right;
+	    color: #fff;
+	    margin: 20px 0 24px 0px;
+	    padding: 10px 15px 1px 15px;
+	}
+
+	.detalhe-topo h2 {
+    font-size: 1rem;
+    display: inline-block;
+		}
+
+	.bt-personalizar{
+		display: none;
+	}
+
+	.bt-rotina{
+		margin:10px;
+	}
+
+	.sessao-modal{
+		max-width: 565px;
+		width: 100%;
+	}
+
+	.inf-md-topo .col-sm-12{
+		text-align: center;
+	}
+
+	.descritivo-paciente p{
+		text-align: center;
+	}
+	.descritivo-paciente p strong{
+		display: block;
+	}
+
+	.esp-forms{
+		padding:0 15px;
+	}
+	#mobile-sep{
+		margin-top: 30px;
+	}
+}
