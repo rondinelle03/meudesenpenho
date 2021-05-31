@@ -78,7 +78,7 @@
                         <td>
                           <div class="d-grid gap-2">
                             <button type="button" class="btn btn-success"><i class="far fa-hand-point-up"></i></button>
-                            <button type="button" class="btn btn-danger"><i class="far fa-hand-point-down"></i></button>
+                            
                           </div>
                         </td>
                         <td>
@@ -99,7 +99,7 @@
                           </div>
                         </td>
                       </tr>
-                       <tr>
+                      <tr>
                         <td><img src="img/chat3.png"></td>
                         <td><strong>Ótavio Renan</strong>  <br> Nº 21</td>
                         <td>
@@ -117,85 +117,7 @@
                         <td>
                           <div class="d-grid gap-2">
                             <button type="button" class="btn btn-success"><i class="far fa-hand-point-up"></i></button>
-                            <button type="button" class="btn btn-danger"><i class="far fa-hand-point-down"></i></button>
-                          </div>
-                        </td>
-                        <td>
-                         <div class="d-grid gap-2">
-                            <button type="button" class="btn btn-success"><i class="far fa-hand-point-up"></i></button>
-                            <button type="button" class="btn btn-danger"><i class="far fa-hand-point-down"></i></button>
-                          </div>
-                        </td>
-                        <td>
-                          <div class="d-grid gap-2">
-                            <button type="button" class="btn btn-success"><i class="far fa-hand-point-up"></i></button>
-                            <button type="button" class="btn btn-danger"><i class="far fa-hand-point-down"></i></button>
-                          </div>
-                        </td>
-                        <td>
-                          <div class="d-grid gap-2">
-                          <button type="button" class="btn btn-light"><i class="far fa-trash-alt"></i></button>
-                        </div>
-                        </td>
-                      </tr>
-                       <tr>
-                        <td><img src="img/chat3.png"></td>
-                        <td><strong>Ótavio Renan</strong>  <br> Nº 21</td>
-                        <td>
-                          <div class="d-grid gap-2">
-                            <button type="button" class="btn btn-success"><i class="far fa-hand-point-up"></i></button>
-                            <button type="button" class="btn btn-danger"><i class="far fa-hand-point-down"></i></button>
-                          </div>
-                        </td>
-                        <td>
-                         <div class="d-grid gap-2">
-                            <button type="button" class="btn btn-success"><i class="far fa-hand-point-up"></i></button>
-                            <button type="button" class="btn btn-danger"><i class="far fa-hand-point-down"></i></button>
-                          </div>
-                        </td>
-                        <td>
-                          <div class="d-grid gap-2">
-                            <button type="button" class="btn btn-success"><i class="far fa-hand-point-up"></i></button>
-                            <button type="button" class="btn btn-danger"><i class="far fa-hand-point-down"></i></button>
-                          </div>
-                        </td>
-                        <td>
-                         <div class="d-grid gap-2">
-                            <button type="button" class="btn btn-success"><i class="far fa-hand-point-up"></i></button>
-                            <button type="button" class="btn btn-danger"><i class="far fa-hand-point-down"></i></button>
-                          </div>
-                        </td>
-                        <td>
-                          <div class="d-grid gap-2">
-                            <button type="button" class="btn btn-success"><i class="far fa-hand-point-up"></i></button>
-                            <button type="button" class="btn btn-danger"><i class="far fa-hand-point-down"></i></button>
-                          </div>
-                        </td>
-                        <td>
-                          <div class="d-grid gap-2">
-                          <button type="button" class="btn btn-light"><i class="far fa-trash-alt"></i></button>
-                        </div>
-                        </td>
-                      </tr>
-                       <tr>
-                        <td><img src="img/chat3.png"></td>
-                        <td><strong>Ótavio Renan</strong>  <br> Nº 21</td>
-                        <td>
-                          <div class="d-grid gap-2">
-                            <button type="button" class="btn btn-success"><i class="far fa-hand-point-up"></i></button>
-                            <button type="button" class="btn btn-danger"><i class="far fa-hand-point-down"></i></button>
-                          </div>
-                        </td>
-                        <td>
-                         <div class="d-grid gap-2">
-                            <button type="button" class="btn btn-success"><i class="far fa-hand-point-up"></i></button>
-                            <button type="button" class="btn btn-danger"><i class="far fa-hand-point-down"></i></button>
-                          </div>
-                        </td>
-                        <td>
-                          <div class="d-grid gap-2">
-                            <button type="button" class="btn btn-success"><i class="far fa-hand-point-up"></i></button>
-                            <button type="button" class="btn btn-danger"><i class="far fa-hand-point-down"></i></button>
+                            
                           </div>
                         </td>
                         <td>
@@ -216,6 +138,126 @@
                           </div>
                         </td>
                       </tr>
+                      <tr>
+                        <td><img src="img/chat3.png"></td>
+                        <td><strong>Ótavio Renan</strong>  <br> Nº 21</td>
+                        <td>
+                          <div class="d-grid gap-2">
+                            <button type="button" class="btn btn-success"><i class="far fa-hand-point-up"></i></button>
+                            <button type="button" class="btn btn-danger"><i class="far fa-hand-point-down"></i></button>
+                          </div>
+                        </td>
+                        <td>
+                         <div class="d-grid gap-2">
+                            <button type="button" class="btn btn-success"><i class="far fa-hand-point-up"></i></button>
+                            <button type="button" class="btn btn-danger"><i class="far fa-hand-point-down"></i></button>
+                          </div>
+                        </td>
+                        <td>
+                          <div class="d-grid gap-2">
+                            <button type="button" class="btn btn-success"><i class="far fa-hand-point-up"></i></button>
+                            
+                          </div>
+                        </td>
+                        <td>
+                         <div class="d-grid gap-2">
+                            <button type="button" class="btn btn-success"><i class="far fa-hand-point-up"></i></button>
+                            <button type="button" class="btn btn-danger"><i class="far fa-hand-point-down"></i></button>
+                          </div>
+                        </td>
+                        <td>
+                          <div class="d-grid gap-2">
+                            <button type="button" class="btn btn-success"><i class="far fa-hand-point-up"></i></button>
+                            <button type="button" class="btn btn-danger"><i class="far fa-hand-point-down"></i></button>
+                          </div>
+                        </td>
+                        <td>
+                          <div class="d-grid gap-2">
+                            <button type="button" class="btn btn-light"><i class="far fa-trash-alt"></i></button>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td><img src="img/chat3.png"></td>
+                        <td><strong>Ótavio Renan</strong>  <br> Nº 21</td>
+                        <td>
+                          <div class="d-grid gap-2">
+                            <button type="button" class="btn btn-success"><i class="far fa-hand-point-up"></i></button>
+                            <button type="button" class="btn btn-danger"><i class="far fa-hand-point-down"></i></button>
+                          </div>
+                        </td>
+                        <td>
+                         <div class="d-grid gap-2">
+                            <button type="button" class="btn btn-success"><i class="far fa-hand-point-up"></i></button>
+                            <button type="button" class="btn btn-danger"><i class="far fa-hand-point-down"></i></button>
+                          </div>
+                        </td>
+                        <td>
+                          <div class="d-grid gap-2">
+                            <button type="button" class="btn btn-success"><i class="far fa-hand-point-up"></i></button>
+                            
+                          </div>
+                        </td>
+                        <td>
+                         <div class="d-grid gap-2">
+                            <button type="button" class="btn btn-success"><i class="far fa-hand-point-up"></i></button>
+                            <button type="button" class="btn btn-danger"><i class="far fa-hand-point-down"></i></button>
+                          </div>
+                        </td>
+                        <td>
+                          <div class="d-grid gap-2">
+                            <button type="button" class="btn btn-success"><i class="far fa-hand-point-up"></i></button>
+                            <button type="button" class="btn btn-danger"><i class="far fa-hand-point-down"></i></button>
+                          </div>
+                        </td>
+                        <td>
+                          <div class="d-grid gap-2">
+                            <button type="button" class="btn btn-light"><i class="far fa-trash-alt"></i></button>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td><img src="img/chat3.png"></td>
+                        <td><strong>Ótavio Renan</strong>  <br> Nº 21</td>
+                        <td>
+                          <div class="d-grid gap-2">
+                            <button type="button" class="btn btn-success"><i class="far fa-hand-point-up"></i></button>
+                            <button type="button" class="btn btn-danger"><i class="far fa-hand-point-down"></i></button>
+                          </div>
+                        </td>
+                        <td>
+                         <div class="d-grid gap-2">
+                            <button type="button" class="btn btn-success"><i class="far fa-hand-point-up"></i></button>
+                            <button type="button" class="btn btn-danger"><i class="far fa-hand-point-down"></i></button>
+                          </div>
+                        </td>
+                        <td>
+                          <div class="d-grid gap-2">
+                            <button type="button" class="btn btn-success"><i class="far fa-hand-point-up"></i></button>
+                            
+                          </div>
+                        </td>
+                        <td>
+                         <div class="d-grid gap-2">
+                            <button type="button" class="btn btn-success"><i class="far fa-hand-point-up"></i></button>
+                            <button type="button" class="btn btn-danger"><i class="far fa-hand-point-down"></i></button>
+                          </div>
+                        </td>
+                        <td>
+                          <div class="d-grid gap-2">
+                            <button type="button" class="btn btn-success"><i class="far fa-hand-point-up"></i></button>
+                            <button type="button" class="btn btn-danger"><i class="far fa-hand-point-down"></i></button>
+                          </div>
+                        </td>
+                        <td>
+                          <div class="d-grid gap-2">
+                            <button type="button" class="btn btn-light"><i class="far fa-trash-alt"></i></button>
+                          </div>
+                        </td>
+                      </tr>
+                       
+                       
+                      
 
                       
                       
@@ -235,6 +277,8 @@
                   <li><strong>Chutes certos em gol:</strong> 0</li>
                   <li><strong>Chutes errados sem direção ao gol:</strong> 0</li>
                   <li><strong>Desarmes:</strong> 0</li>
+                  <li><strong>Penaltis:</strong> 2 / 0</li>
+                  <li><strong>Shout Out:</strong> 2 / 0</li>
                   <li><strong>Passes certos no campo adversario:</strong> 0</li>
                   <li><strong>Passes errados:</strong> 0</li>
                 </ul>

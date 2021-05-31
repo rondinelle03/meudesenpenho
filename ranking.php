@@ -39,7 +39,7 @@
 
           <div class="row">
             <div class="col-12">
-               <h6 class="obs-detalhe">Categoria: <span>Sub 09</span>Fundamento: <span> Desarmes</span> </h6> 
+               <h6 class="obs-detalhe">Categoria: <span>Sub 09</span> | Fundamento: <span> Desarmes</span> </h6> 
             </div>
           </div>
           <div class="row">
@@ -115,26 +115,7 @@
             
           </div>
          
-          <div class="row">
-            <div class="col-12">
-                <h4>Analise atual da equipe na partida</h4>
-                <ul>
-                  <li><strong>Chutes certos em gol:</strong> 0</li>
-                  <li><strong>Chutes errados sem direção ao gol:</strong> 0</li>
-                  <li><strong>Desarmes:</strong> 0</li>
-                  <li><strong>Passes certos no campo adversario:</strong> 0</li>
-                  <li><strong>Passes errados:</strong> 0</li>
-                </ul>
-            </div>
-          </div>   
-
-          <div class="row">
-              <div class="col-12">
-                  <div class="d-grid gap-2">
-                    <button type="button" class="btn btn-info btn-lg">FINALIZAR ATIVIDADE</button>
-                  </div>
-              </div>
-          </div>       
+        
 
        
 
