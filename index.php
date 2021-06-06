@@ -35,13 +35,13 @@
                   <form action="inicial.php">
                    <div class="lg-top"><img src="img/joan.jpg" alt="" ></div>
                     <h1 class="mb-3 fw-normal">Acessar <span> </h1>
-                    <label for="inputText" >SEU E-MAIL</label>
+                    <label for="inputText" >SEU LOGIN</label>
                     <input type="text" id="inputText" class="form-control form-control-lg" required="" autofocus="">
-                    <label for="inputPassword" id="blc-senha" >SENHA <span><a href="">esqueceu a senha?</a></span></label>
+                    <!--<label for="inputPassword" id="blc-senha" >SENHA <span><a href="">esqueceu a senha?</a></span></label>-->
                     <input type="password" id="inputPassword" class="form-control form-control-lg"  required="">
                     
                     <button class=" btn btn-lg btn-dark" type="submit">Sign in</button>
-                    <p class="marca-rodape"><img src="img/jv-cms.png"></p>
+                    <p class="marca-rodape">Desenvolvido pela R4HANDON</p>
                   </form>
                 </main>
 

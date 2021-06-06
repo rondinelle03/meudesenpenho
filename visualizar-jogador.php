@@ -31,6 +31,7 @@
                   <table class="table align-middle">
                     <thead>
                       <tr>
+                        <th>Gols</th>
                         <th>Chutes Certos</th>
                         <th>Chutes Errados</th>
                         <th>Desarmes</th>
@@ -42,7 +43,7 @@
                     </thead>
                     <tbody>
                       <tr>
-                     
+                        <td><h4>20</h4></td>
                         <td><h4>20</h4></td>
                         <td><h4>20</h4></td>
                         <td><h4>20</h4></td>

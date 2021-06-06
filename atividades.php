@@ -12,7 +12,7 @@
           </div><!--.row-->
           
           <div class="row">
-            <div class="col-10">
+            <div class="col-md-10 esp-mb">
                <select name="genero" id="genero" class="form-control">
                     <option value="">Selecione a categoria</option>
                     <option value="sub9">SUB-9</option>
@@ -21,7 +21,7 @@
                 </select>
             </div>
             
-            <div class="col-2">
+            <div class="col-md-2 esp-mb">
               <div class="d-grid gap-2">
                 <button type="button" class="btn btn-dark btn-lg">Buscar</button>
               </div>

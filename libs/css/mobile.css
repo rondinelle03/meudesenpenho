@@ -1,5 +1,9 @@
 @media screen and (max-width: 768px) {
 
+.esp-mb{
+	margin-bottom:20px ;
+}
+
 .inbox_people{
 	padding-left:0 !important;
 }
