@@ -61,8 +61,13 @@ header{
     text-align: center;
 }
 
+.table-responsive .btn{
+    width: 50px !important;
+    height: 50px !important;
+}
+
 .container{
-    max-width: 750px;
+    max-width: 800px;
 }
 
 .navegacao-topo li{
@@ -81,6 +86,9 @@ header{
 .navegacao-topo li a span{
     display: block;
  
+}
+.btn-info{
+    font-weight: bold;
 }
 
 #logo-cliente{
@@ -146,6 +154,11 @@ header .dropdown-item {
     font-size: 14px;
     padding: 25px 30px;
     border-radius: 6px;
+}
+
+h4{
+    text-align: center;
+    color: #131c23;
 }
 
 .dropdown-menu-dark li{
@@ -1451,14 +1464,25 @@ tr{
     margin-bottom: 100px;
 }
 .table thead{
-    background: #eaeef2;
-    color: #6F8FA6;
+   
     font-size: 12px;    
     text-transform: uppercase;
 }
 .table thead th{
-    border-radius: 6px;
+    background: #6F8FA6;
     padding:20px;
+    color: #fff;
+    
+}
+.observacoes-campo{
+    list-style: none;
+    display: block;
+}
+th{
+    position: -webkit-sticky;
+  position: sticky;
+   top: 0;
+   z-index: 9;
 }
 
 .table td {
@@ -1501,6 +1525,18 @@ tr{
 .almoco-trf{
     background:#f6e9dd;
     color: #131C23;
+}
+
+.observacoes-campo{
+    display: block;
+    width: 100%;
+}
+
+.observacoes-campo li{
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
 }
 
 .btn-primary {

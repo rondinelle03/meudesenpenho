@@ -1,0 +1,983 @@
+
+<!DOCTYPE html>
+<html lang="pt-br"> 
+   <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+     <meta name="theme-color" content="#065891">
+    <link rel="shortcut icon" href="https://r4handon.com.br/meudesempenho/public/favicon.ico"/>
+      <meta name="description" content="Desempenho de atletas do sub 11"> 
+    
+   
+    <!-- Bootstrap CSS -->
+     <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://r4handon.com.br/meudesempenho/public/new/libs/bootstrap/css/bootstrap.min.css">       
+    <link rel="stylesheet" type="text/css" href="https://r4handon.com.br/meudesempenho/public/new/libs/lightbox/css/lightbox.min.css">
+     <link rel="stylesheet" type="text/css" href="https://r4handon.com.br/meudesempenho/public/new/libs/datatable/jquery.dataTables.min.css">
+     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.min.css">
+     <link rel="stylesheet" type="text/css" href="https://r4handon.com.br/meudesempenho/public/new/libs/dist/assets/owl.theme.default.min.css">
+     <link rel="stylesheet" type="text/css" href="https://r4handon.com.br/meudesempenho/public/new/libs/dist/assets/owl.theme.green.min.css">
+     <link rel="stylesheet" type="text/css" href="https://r4handon.com.br/meudesempenho/public/new/libs/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" type="text/css" href="https://r4handon.com.br/meudesempenho/public/new/libs/css/geral.css">
+     <link rel="stylesheet" type="text/css" href="https://r4handon.com.br/meudesempenho/public/new/libs/css/mobile.css">
+    <title>Meu Desempenho - Joan Futebol (Beta)</title> 
+
+ 
+
+<script src="https://kit.fontawesome.com/41ffd3bf67.js" crossorigin="anonymous"></script>
+
+</head>
+
+  <body>
+    <header>
+     <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-8">
+                <a href="" id="logo-cliente"><img src="http://r4handon.com.br/meudesempenho/public/new/img/jv-cms.png"></a>
+            </div>
+           
+            <div class="col-md-4">
+                <div class="remote-ico dropdown text-end">
+                  <button class="dropblack dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+                    <span></span><i>MENU</i>
+                  </button>
+                  <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+                    <li><a class="dropdown-item" href="https://r4handon.com.br/meudesempenho/">Início</a></li>
+                    <li><a class="dropdown-item" href="https://r4handon.com.br/meudesempenho/atividades">Atividades</a></li>
+                    <li><a class="dropdown-item" href="https://r4handon.com.br/meudesempenho/observacoes">Observações</a></li>
+                    <li><a class="dropdown-item" href="#">Jogadores</a></li>
+                    <li><a class="dropdown-item" href="#">Ranking</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li class="exit-ic"><a class="dropdown-item" href="https://r4handon.com.br/meudesempenho/sair">Sair</a></li>
+                  </ul>
+                </div>
+            </div><!--.col-md-4-->
+        </div>
+      </div>
+    </header>
+    <section class="imagem-topo">
+       
+    </section>
+
+    
+<section id="conteudo">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="center-usuario">
+                <img src="http://r4handon.com.br/meudesempenho/public/new/img/joan.jpg">
+                <h1>Analise de Desempenho</h1>
+              </div>
+            </div>
+          </div><!--.row-->
+
+         
+
+          <div class="row">
+            <div class="col-12">
+               <!--h6 class="obs-detalhe" id="demo">Categoria: <span>Sub 09</span> | Atividade: <span>Joan X Ajax - 20.02.2021</span></h6--> 
+               <h6 class="obs-detalhe" id="demo">Categoria: <span style="color:#990000">SUB-11</span> | Atividade: <span style="color:#990000">Joan X PSG Academy</span></h6>
+            </div>
+          </div>
+          <div class="row">
+
+              <div class="col-12">
+
+                <div class="table-responsive">
+                  <table class="table align-middle">
+                    <thead>
+                      <tr>
+                        <th>Foto</th>
+                        <th>Nome</th>
+                        <th>Gols</th>
+                        <th>Chutes</th>
+                        <th>Passes</th>
+                        <th>Desarmes</th>
+                        <th>Penaltis</th>
+                        <th>Shout out</th>
+                      
+                      </tr>
+                    </thead>
+                    <tbody>
+                                                 <tr>
+                            <td><!--img src="img/chat3.png"-->
+                                                                    <br /><img style="border-radius: 10px;" src="http://r4handon.com.br/meudesempenho/files/jogador/file/8/sem-foto.jpg" width="50px" height="50px"> 
+                                 
+                            </td>
+                            <td><strong>Ryan Herllon</strong>  <br> Nº 64</td>
+                            <td>
+                              <div class="d-grid gap-2">
+                              <button type="button" class="btn btn-success" ='novoGol(48)'>
+                                <div id="gol48">0</div></button></div></td>
+                            <td>
+                              <div class="d-grid gap-2">
+                                <button type="button" class="btn btn-success" ='chuteCerto(48)'>
+                                  <div id="chuteCerto48">0</div></button>
+                                <button type="button" class="btn btn btn-danger" ='chuteErrado(48)'>
+                                  <div id="chuteErrado48">0</div></button>
+                              </div>
+                            </td>
+                            <td>
+                             <div class="d-grid gap-2">
+                                <button type="button" class="btn btn-success" ='passeCerto(48)'>
+                                  <div id="passeCerto48">0</div></button>
+                                <button type="button" class="btn btn btn-danger" ='passeErrado(48)'>
+                                  <div id="passeErrado48">0</div></button>
+                              </div>
+                            </td>
+                            <td>
+                              <div class="d-grid gap-2">
+                                <button type="button" class="btn btn-success" ='desarmes(48)'>
+                                  <div id="desarmes48">0</div></button>
+                                
+                              </div>
+                            </td>
+                            <td>
+                             <div class="d-grid gap-2">
+                                <button type="button" class="btn btn-success" ='penaltisCerto(48)'>
+                                  <div id="penaltisCerto48">0</div></button>
+                                <button type="button" class="btn btn btn-danger" ='paneltisErrado(48)'>
+                                  <div id="paneltisErrado48">0</div></button>
+                              </div>
+                            </td>
+                            <td>
+                              <div class="d-grid gap-2">
+                                <button type="button" class="btn btn-success" ='shoutCerto(48)'>
+                                  <div id="shoutCerto48">0</div></button>
+                                <button type="button" class="btn btn btn-danger" ='shoutErrado(48)'>
+                                  <div id="shoutErrado48">0</div></button>
+                              </div>
+                              </div>
+                            </td>
+                            
+                          </tr>
+                                                  <tr>
+                            <td><!--img src="img/chat3.png"-->
+                                                                    <br /><img style="border-radius: 10px;" src="http://r4handon.com.br/meudesempenho/files/jogador/file/9/sem-foto.jpg" width="50px" height="50px"> 
+                                 
+                            </td>
+                            <td><strong>Davi Lucas </strong>  <br> Nº --</td>
+                            <td>
+                              <div class="d-grid gap-2">
+                              <button type="button" class="btn btn-success" ='novoGol(49)'>
+                                <div id="gol49">0</div></button></div></td>
+                            <td>
+                              <div class="d-grid gap-2">
+                                <button type="button" class="btn btn-success" ='chuteCerto(49)'>
+                                  <div id="chuteCerto49">0</div></button>
+                                <button type="button" class="btn btn btn-danger" ='chuteErrado(49)'>
+                                  <div id="chuteErrado49">0</div></button>
+                              </div>
+                            </td>
+                            <td>
+                             <div class="d-grid gap-2">
+                                <button type="button" class="btn btn-success" ='passeCerto(49)'>
+                                  <div id="passeCerto49">0</div></button>
+                                <button type="button" class="btn btn btn-danger" ='passeErrado(49)'>
+                                  <div id="passeErrado49">0</div></button>
+                              </div>
+                            </td>
+                            <td>
+                              <div class="d-grid gap-2">
+                                <button type="button" class="btn btn-success" ='desarmes(49)'>
+                                  <div id="desarmes49">1</div></button>
+                                
+                              </div>
+                            </td>
+                            <td>
+                             <div class="d-grid gap-2">
+                                <button type="button" class="btn btn-success" ='penaltisCerto(49)'>
+                                  <div id="penaltisCerto49">0</div></button>
+                                <button type="button" class="btn btn btn-danger" ='paneltisErrado(49)'>
+                                  <div id="paneltisErrado49">0</div></button>
+                              </div>
+                            </td>
+                            <td>
+                              <div class="d-grid gap-2">
+                                <button type="button" class="btn btn-success" ='shoutCerto(49)'>
+                                  <div id="shoutCerto49">0</div></button>
+                                <button type="button" class="btn btn btn-danger" ='shoutErrado(49)'>
+                                  <div id="shoutErrado49">0</div></button>
+                              </div>
+                              </div>
+                            </td>
+                            
+                          </tr>
+                                                  <tr>
+                            <td><!--img src="img/chat3.png"-->
+                                                                    <br /><img style="border-radius: 10px;" src="http://r4handon.com.br/meudesempenho/files/jogador/file/10/sem-foto.jpg" width="50px" height="50px"> 
+                                 
+                            </td>
+                            <td><strong>Davy Wanderson</strong>  <br> Nº --</td>
+                            <td>
+                              <div class="d-grid gap-2">
+                              <button type="button" class="btn btn-success" ='novoGol(50)'>
+                                <div id="gol50">0</div></button></div></td>
+                            <td>
+                              <div class="d-grid gap-2">
+                                <button type="button" class="btn btn-success" ='chuteCerto(50)'>
+                                  <div id="chuteCerto50">0</div></button>
+                                <button type="button" class="btn btn btn-danger" ='chuteErrado(50)'>
+                                  <div id="chuteErrado50">0</div></button>
+                              </div>
+                            </td>
+                            <td>
+                             <div class="d-grid gap-2">
+                                <button type="button" class="btn btn-success" ='passeCerto(50)'>
+                                  <div id="passeCerto50">0</div></button>
+                                <button type="button" class="btn btn btn-danger" ='passeErrado(50)'>
+                                  <div id="passeErrado50">1</div></button>
+                              </div>
+                            </td>
+                            <td>
+                              <div class="d-grid gap-2">
+                                <button type="button" class="btn btn-success" ='desarmes(50)'>
+                                  <div id="desarmes50">5</div></button>
+                                
+                              </div>
+                            </td>
+                            <td>
+                             <div class="d-grid gap-2">
+                                <button type="button" class="btn btn-success" ='penaltisCerto(50)'>
+                                  <div id="penaltisCerto50">0</div></button>
+                                <button type="button" class="btn btn btn-danger" ='paneltisErrado(50)'>
+                                  <div id="paneltisErrado50">0</div></button>
+                              </div>
+                            </td>
+                            <td>
+                              <div class="d-grid gap-2">
+                                <button type="button" class="btn btn-success" ='shoutCerto(50)'>
+                                  <div id="shoutCerto50">0</div></button>
+                                <button type="button" class="btn btn btn-danger" ='shoutErrado(50)'>
+                                  <div id="shoutErrado50">0</div></button>
+                              </div>
+                              </div>
+                            </td>
+                            
+                          </tr>
+                                                  <tr>
+                            <td><!--img src="img/chat3.png"-->
+                                                                    <br /><img style="border-radius: 10px;" src="http://r4handon.com.br/meudesempenho/files/jogador/file/11/sem-foto.jpg" width="50px" height="50px"> 
+                                 
+                            </td>
+                            <td><strong>Eron Neto </strong>  <br> Nº --</td>
+                            <td>
+                              <div class="d-grid gap-2">
+                              <button type="button" class="btn btn-success" ='novoGol(51)'>
+                                <div id="gol51">0</div></button></div></td>
+                            <td>
+                              <div class="d-grid gap-2">
+                                <button type="button" class="btn btn-success" ='chuteCerto(51)'>
+                                  <div id="chuteCerto51">0</div></button>
+                                <button type="button" class="btn btn btn-danger" ='chuteErrado(51)'>
+                                  <div id="chuteErrado51">0</div></button>
+                              </div>
+                            </td>
+                            <td>
+                             <div class="d-grid gap-2">
+                                <button type="button" class="btn btn-success" ='passeCerto(51)'>
+                                  <div id="passeCerto51">0</div></button>
+                                <button type="button" class="btn btn btn-danger" ='passeErrado(51)'>
+                                  <div id="passeErrado51">1</div></button>
+                              </div>
+                            </td>
+                            <td>
+                              <div class="d-grid gap-2">
+                                <button type="button" class="btn btn-success" ='desarmes(51)'>
+                                  <div id="desarmes51">2</div></button>
+                                
+                              </div>
+                            </td>
+                            <td>
+                             <div class="d-grid gap-2">
+                                <button type="button" class="btn btn-success" ='penaltisCerto(51)'>
+                                  <div id="penaltisCerto51">0</div></button>
+                                <button type="button" class="btn btn btn-danger" ='paneltisErrado(51)'>
+                                  <div id="paneltisErrado51">0</div></button>
+                              </div>
+                            </td>
+                            <td>
+                              <div class="d-grid gap-2">
+                                <button type="button" class="btn btn-success" ='shoutCerto(51)'>
+                                  <div id="shoutCerto51">0</div></button>
+                                <button type="button" class="btn btn btn-danger" ='shoutErrado(51)'>
+                                  <div id="shoutErrado51">0</div></button>
+                              </div>
+                              </div>
+                            </td>
+                            
+                          </tr>
+                                                  <tr>
+                            <td><!--img src="img/chat3.png"-->
+                                                                    <br /><img style="border-radius: 10px;" src="http://r4handon.com.br/meudesempenho/files/jogador/file/12/sem-foto.jpg" width="50px" height="50px"> 
+                                 
+                            </td>
+                            <td><strong>Francisco Maurício</strong>  <br> Nº --</td>
+                            <td>
+                              <div class="d-grid gap-2">
+                              <button type="button" class="btn btn-success" ='novoGol(52)'>
+                                <div id="gol52">1</div></button></div></td>
+                            <td>
+                              <div class="d-grid gap-2">
+                                <button type="button" class="btn btn-success" ='chuteCerto(52)'>
+                                  <div id="chuteCerto52">2</div></button>
+                                <button type="button" class="btn btn btn-danger" ='chuteErrado(52)'>
+                                  <div id="chuteErrado52">1</div></button>
+                              </div>
+                            </td>
+                            <td>
+                             <div class="d-grid gap-2">
+                                <button type="button" class="btn btn-success" ='passeCerto(52)'>
+                                  <div id="passeCerto52">1</div></button>
+                                <button type="button" class="btn btn btn-danger" ='passeErrado(52)'>
+                                  <div id="passeErrado52">0</div></button>
+                              </div>
+                            </td>
+                            <td>
+                              <div class="d-grid gap-2">
+                                <button type="button" class="btn btn-success" ='desarmes(52)'>
+                                  <div id="desarmes52">2</div></button>
+                                
+                              </div>
+                            </td>
+                            <td>
+                             <div class="d-grid gap-2">
+                                <button type="button" class="btn btn-success" ='penaltisCerto(52)'>
+                                  <div id="penaltisCerto52">0</div></button>
+                                <button type="button" class="btn btn btn-danger" ='paneltisErrado(52)'>
+                                  <div id="paneltisErrado52">0</div></button>
+                              </div>
+                            </td>
+                            <td>
+                              <div class="d-grid gap-2">
+                                <button type="button" class="btn btn-success" ='shoutCerto(52)'>
+                                  <div id="shoutCerto52">0</div></button>
+                                <button type="button" class="btn btn btn-danger" ='shoutErrado(52)'>
+                                  <div id="shoutErrado52">2</div></button>
+                              </div>
+                              </div>
+                            </td>
+                            
+                          </tr>
+                                                  <tr>
+                            <td><!--img src="img/chat3.png"-->
+                                                                    <br /><img style="border-radius: 10px;" src="http://r4handon.com.br/meudesempenho/files/jogador/file/13/sem-foto.jpg" width="50px" height="50px"> 
+                                 
+                            </td>
+                            <td><strong>Fernando Ryan</strong>  <br> Nº --</td>
+                            <td>
+                              <div class="d-grid gap-2">
+                              <button type="button" class="btn btn-success" ='novoGol(53)'>
+                                <div id="gol53">0</div></button></div></td>
+                            <td>
+                              <div class="d-grid gap-2">
+                                <button type="button" class="btn btn-success" ='chuteCerto(53)'>
+                                  <div id="chuteCerto53">0</div></button>
+                                <button type="button" class="btn btn btn-danger" ='chuteErrado(53)'>
+                                  <div id="chuteErrado53">0</div></button>
+                              </div>
+                            </td>
+                            <td>
+                             <div class="d-grid gap-2">
+                                <button type="button" class="btn btn-success" ='passeCerto(53)'>
+                                  <div id="passeCerto53">0</div></button>
+                                <button type="button" class="btn btn btn-danger" ='passeErrado(53)'>
+                                  <div id="passeErrado53">0</div></button>
+                              </div>
+                            </td>
+                            <td>
+                              <div class="d-grid gap-2">
+                                <button type="button" class="btn btn-success" ='desarmes(53)'>
+                                  <div id="desarmes53">0</div></button>
+                                
+                              </div>
+                            </td>
+                            <td>
+                             <div class="d-grid gap-2">
+                                <button type="button" class="btn btn-success" ='penaltisCerto(53)'>
+                                  <div id="penaltisCerto53">0</div></button>
+                                <button type="button" class="btn btn btn-danger" ='paneltisErrado(53)'>
+                                  <div id="paneltisErrado53">0</div></button>
+                              </div>
+                            </td>
+                            <td>
+                              <div class="d-grid gap-2">
+                                <button type="button" class="btn btn-success" ='shoutCerto(53)'>
+                                  <div id="shoutCerto53">0</div></button>
+                                <button type="button" class="btn btn btn-danger" ='shoutErrado(53)'>
+                                  <div id="shoutErrado53">0</div></button>
+                              </div>
+                              </div>
+                            </td>
+                            
+                          </tr>
+                                                 
+                                                  <tr>
+                            <td><!--img src="img/chat3.png"-->
+                                                                    <br /><img style="border-radius: 10px;" src="http://r4handon.com.br/meudesempenho/files/jogador/file/15/sem-foto.jpg" width="50px" height="50px"> 
+                                 
+                            </td>
+                            <td><strong>João Luccas</strong>  <br> Nº --</td>
+                            <td>
+                              <div class="d-grid gap-2">
+                              <button type="button" class="btn btn-success" ='novoGol(55)'>
+                                <div id="gol55">0</div></button></div></td>
+                            <td>
+                              <div class="d-grid gap-2">
+                                <button type="button" class="btn btn-success" ='chuteCerto(55)'>
+                                  <div id="chuteCerto55">0</div></button>
+                                <button type="button" class="btn btn btn-danger" ='chuteErrado(55)'>
+                                  <div id="chuteErrado55">1</div></button>
+                              </div>
+                            </td>
+                            <td>
+                             <div class="d-grid gap-2">
+                                <button type="button" class="btn btn-success" ='passeCerto(55)'>
+                                  <div id="passeCerto55">0</div></button>
+                                <button type="button" class="btn btn btn-danger" ='passeErrado(55)'>
+                                  <div id="passeErrado55">0</div></button>
+                              </div>
+                            </td>
+                            <td>
+                              <div class="d-grid gap-2">
+                                <button type="button" class="btn btn-success" ='desarmes(55)'>
+                                  <div id="desarmes55">0</div></button>
+                                
+                              </div>
+                            </td>
+                            <td>
+                             <div class="d-grid gap-2">
+                                <button type="button" class="btn btn-success" ='penaltisCerto(55)'>
+                                  <div id="penaltisCerto55">0</div></button>
+                                <button type="button" class="btn btn btn-danger" ='paneltisErrado(55)'>
+                                  <div id="paneltisErrado55">0</div></button>
+                              </div>
+                            </td>
+                            <td>
+                              <div class="d-grid gap-2">
+                                <button type="button" class="btn btn-success" ='shoutCerto(55)'>
+                                  <div id="shoutCerto55">0</div></button>
+                                <button type="button" class="btn btn btn-danger" ='shoutErrado(55)'>
+                                  <div id="shoutErrado55">0</div></button>
+                              </div>
+                              </div>
+                            </td>
+                            
+                          </tr>
+                                                  <tr>
+                            <td><!--img src="img/chat3.png"-->
+                                                                    <br /><img style="border-radius: 10px;" src="http://r4handon.com.br/meudesempenho/files/jogador/file/17/sem-foto.jpg" width="50px" height="50px"> 
+                                 
+                            </td>
+                            <td><strong>Lucas Guilherme</strong>  <br> Nº --</td>
+                            <td>
+                              <div class="d-grid gap-2">
+                              <button type="button" class="btn btn-success" ='novoGol(56)'>
+                                <div id="gol56">0</div></button></div></td>
+                            <td>
+                              <div class="d-grid gap-2">
+                                <button type="button" class="btn btn-success" ='chuteCerto(56)'>
+                                  <div id="chuteCerto56">0</div></button>
+                                <button type="button" class="btn btn btn-danger" ='chuteErrado(56)'>
+                                  <div id="chuteErrado56">0</div></button>
+                              </div>
+                            </td>
+                            <td>
+                             <div class="d-grid gap-2">
+                                <button type="button" class="btn btn-success" ='passeCerto(56)'>
+                                  <div id="passeCerto56">0</div></button>
+                                <button type="button" class="btn btn btn-danger" ='passeErrado(56)'>
+                                  <div id="passeErrado56">0</div></button>
+                              </div>
+                            </td>
+                            <td>
+                              <div class="d-grid gap-2">
+                                <button type="button" class="btn btn-success" ='desarmes(56)'>
+                                  <div id="desarmes56">0</div></button>
+                                
+                              </div>
+                            </td>
+                            <td>
+                             <div class="d-grid gap-2">
+                                <button type="button" class="btn btn-success" ='penaltisCerto(56)'>
+                                  <div id="penaltisCerto56">0</div></button>
+                                <button type="button" class="btn btn btn-danger" ='paneltisErrado(56)'>
+                                  <div id="paneltisErrado56">0</div></button>
+                              </div>
+                            </td>
+                            <td>
+                              <div class="d-grid gap-2">
+                                <button type="button" class="btn btn-success" ='shoutCerto(56)'>
+                                  <div id="shoutCerto56">0</div></button>
+                                <button type="button" class="btn btn btn-danger" ='shoutErrado(56)'>
+                                  <div id="shoutErrado56">0</div></button>
+                              </div>
+                              </div>
+                            </td>
+                            
+                          </tr>
+                                                  <tr>
+                            <td><!--img src="img/chat3.png"-->
+                                                                    <br /><img style="border-radius: 10px;" src="http://r4handon.com.br/meudesempenho/files/jogador/file/18/sem-foto.jpg" width="50px" height="50px"> 
+                                 
+                            </td>
+                            <td><strong>Netinho</strong>  <br> Nº --</td>
+                            <td>
+                              <div class="d-grid gap-2">
+                              <button type="button" class="btn btn-success" ='novoGol(57)'>
+                                <div id="gol57">0</div></button></div></td>
+                            <td>
+                              <div class="d-grid gap-2">
+                                <button type="button" class="btn btn-success" ='chuteCerto(57)'>
+                                  <div id="chuteCerto57">1</div></button>
+                                <button type="button" class="btn btn btn-danger" ='chuteErrado(57)'>
+                                  <div id="chuteErrado57">0</div></button>
+                              </div>
+                            </td>
+                            <td>
+                             <div class="d-grid gap-2">
+                                <button type="button" class="btn btn-success" ='passeCerto(57)'>
+                                  <div id="passeCerto57">0</div></button>
+                                <button type="button" class="btn btn btn-danger" ='passeErrado(57)'>
+                                  <div id="passeErrado57">0</div></button>
+                              </div>
+                            </td>
+                            <td>
+                              <div class="d-grid gap-2">
+                                <button type="button" class="btn btn-success" ='desarmes(57)'>
+                                  <div id="desarmes57">2</div></button>
+                                
+                              </div>
+                            </td>
+                            <td>
+                             <div class="d-grid gap-2">
+                                <button type="button" class="btn btn-success" ='penaltisCerto(57)'>
+                                  <div id="penaltisCerto57">0</div></button>
+                                <button type="button" class="btn btn btn-danger" ='paneltisErrado(57)'>
+                                  <div id="paneltisErrado57">0</div></button>
+                              </div>
+                            </td>
+                            <td>
+                              <div class="d-grid gap-2">
+                                <button type="button" class="btn btn-success" ='shoutCerto(57)'>
+                                  <div id="shoutCerto57">0</div></button>
+                                <button type="button" class="btn btn btn-danger" ='shoutErrado(57)'>
+                                  <div id="shoutErrado57">0</div></button>
+                              </div>
+                              </div>
+                            </td>
+                            
+                          </tr>
+                                                  <tr>
+                            <td><!--img src="img/chat3.png"-->
+                                                                    <br /><img style="border-radius: 10px;" src="http://r4handon.com.br/meudesempenho/files/jogador/file/19/sem-foto.jpg" width="50px" height="50px"> 
+                                 
+                            </td>
+                            <td><strong>Otávio Renan </strong>  <br> Nº --</td>
+                            <td>
+                              <div class="d-grid gap-2">
+                              <button type="button" class="btn btn-success" ='novoGol(58)'>
+                                <div id="gol58">0</div></button></div></td>
+                            <td>
+                              <div class="d-grid gap-2">
+                                <button type="button" class="btn btn-success" ='chuteCerto(58)'>
+                                  <div id="chuteCerto58">1</div></button>
+                                <button type="button" class="btn btn btn-danger" ='chuteErrado(58)'>
+                                  <div id="chuteErrado58">0</div></button>
+                              </div>
+                            </td>
+                            <td>
+                             <div class="d-grid gap-2">
+                                <button type="button" class="btn btn-success" ='passeCerto(58)'>
+                                  <div id="passeCerto58">1</div></button>
+                                <button type="button" class="btn btn btn-danger" ='passeErrado(58)'>
+                                  <div id="passeErrado58">1</div></button>
+                              </div>
+                            </td>
+                            <td>
+                              <div class="d-grid gap-2">
+                                <button type="button" class="btn btn-success" ='desarmes(58)'>
+                                  <div id="desarmes58">0</div></button>
+                                
+                              </div>
+                            </td>
+                            <td>
+                             <div class="d-grid gap-2">
+                                <button type="button" class="btn btn-success" ='penaltisCerto(58)'>
+                                  <div id="penaltisCerto58">0</div></button>
+                                <button type="button" class="btn btn btn-danger" ='paneltisErrado(58)'>
+                                  <div id="paneltisErrado58">0</div></button>
+                              </div>
+                            </td>
+                            <td>
+                              <div class="d-grid gap-2">
+                                <button type="button" class="btn btn-success" ='shoutCerto(58)'>
+                                  <div id="shoutCerto58">0</div></button>
+                                <button type="button" class="btn btn btn-danger" ='shoutErrado(58)'>
+                                  <div id="shoutErrado58">0</div></button>
+                              </div>
+                              </div>
+                            </td>
+                            
+                          </tr>
+                                                  <tr>
+                            <td><!--img src="img/chat3.png"-->
+                                                                    <br /><img style="border-radius: 10px;" src="http://r4handon.com.br/meudesempenho/files/jogador/file/20/sem-foto.jpg" width="50px" height="50px"> 
+                                 
+                            </td>
+                            <td><strong>Paulo </strong>  <br> Nº --</td>
+                            <td>
+                              <div class="d-grid gap-2">
+                              <button type="button" class="btn btn-success" ='novoGol(59)'>
+                                <div id="gol59">0</div></button></div></td>
+                            <td>
+                              <div class="d-grid gap-2">
+                                <button type="button" class="btn btn-success" ='chuteCerto(59)'>
+                                  <div id="chuteCerto59">0</div></button>
+                                <button type="button" class="btn btn btn-danger" ='chuteErrado(59)'>
+                                  <div id="chuteErrado59">0</div></button>
+                              </div>
+                            </td>
+                            <td>
+                             <div class="d-grid gap-2">
+                                <button type="button" class="btn btn-success" ='passeCerto(59)'>
+                                  <div id="passeCerto59">0</div></button>
+                                <button type="button" class="btn btn btn-danger" ='passeErrado(59)'>
+                                  <div id="passeErrado59">0</div></button>
+                              </div>
+                            </td>
+                            <td>
+                              <div class="d-grid gap-2">
+                                <button type="button" class="btn btn-success" ='desarmes(59)'>
+                                  <div id="desarmes59">0</div></button>
+                                
+                              </div>
+                            </td>
+                            <td>
+                             <div class="d-grid gap-2">
+                                <button type="button" class="btn btn-success" ='penaltisCerto(59)'>
+                                  <div id="penaltisCerto59">0</div></button>
+                                <button type="button" class="btn btn btn-danger" ='paneltisErrado(59)'>
+                                  <div id="paneltisErrado59">0</div></button>
+                              </div>
+                            </td>
+                            <td>
+                              <div class="d-grid gap-2">
+                                <button type="button" class="btn btn-success" ='shoutCerto(59)'>
+                                  <div id="shoutCerto59">0</div></button>
+                                <button type="button" class="btn btn btn-danger" ='shoutErrado(59)'>
+                                  <div id="shoutErrado59">0</div></button>
+                              </div>
+                              </div>
+                            </td>
+                            
+                          </tr>
+                                                  <tr>
+                            <td><!--img src="img/chat3.png"-->
+                                                                    <br /><img style="border-radius: 10px;" src="http://r4handon.com.br/meudesempenho/files/jogador/file/21/sem-foto.jpg" width="50px" height="50px"> 
+                                 
+                            </td>
+                            <td><strong>Pedro Emanoel </strong>  <br> Nº --</td>
+                            <td>
+                              <div class="d-grid gap-2">
+                              <button type="button" class="btn btn-success" ='novoGol(60)'>
+                                <div id="gol60">0</div></button></div></td>
+                            <td>
+                              <div class="d-grid gap-2">
+                                <button type="button" class="btn btn-success" ='chuteCerto(60)'>
+                                  <div id="chuteCerto60">0</div></button>
+                                <button type="button" class="btn btn btn-danger" ='chuteErrado(60)'>
+                                  <div id="chuteErrado60">0</div></button>
+                              </div>
+                            </td>
+                            <td>
+                             <div class="d-grid gap-2">
+                                <button type="button" class="btn btn-success" ='passeCerto(60)'>
+                                  <div id="passeCerto60">0</div></button>
+                                <button type="button" class="btn btn btn-danger" ='passeErrado(60)'>
+                                  <div id="passeErrado60">0</div></button>
+                              </div>
+                            </td>
+                            <td>
+                              <div class="d-grid gap-2">
+                                <button type="button" class="btn btn-success" ='desarmes(60)'>
+                                  <div id="desarmes60">0</div></button>
+                                
+                              </div>
+                            </td>
+                            <td>
+                             <div class="d-grid gap-2">
+                                <button type="button" class="btn btn-success" ='penaltisCerto(60)'>
+                                  <div id="penaltisCerto60">0</div></button>
+                                <button type="button" class="btn btn btn-danger" ='paneltisErrado(60)'>
+                                  <div id="paneltisErrado60">0</div></button>
+                              </div>
+                            </td>
+                            <td>
+                              <div class="d-grid gap-2">
+                                <button type="button" class="btn btn-success" ='shoutCerto(60)'>
+                                  <div id="shoutCerto60">0</div></button>
+                                <button type="button" class="btn btn btn-danger" ='shoutErrado(60)'>
+                                  <div id="shoutErrado60">0</div></button>
+                              </div>
+                              </div>
+                            </td>
+                            
+                          </tr>
+                                                  <tr>
+                            <td><!--img src="img/chat3.png"-->
+                                                                    <br /><img style="border-radius: 10px;" src="http://r4handon.com.br/meudesempenho/files/jogador/file/23/sem-foto.jpg" width="50px" height="50px"> 
+                                 
+                            </td>
+                            <td><strong>Victor Gabriel </strong>  <br> Nº --</td>
+                            <td>
+                              <div class="d-grid gap-2">
+                              <button type="button" class="btn btn-success" ='novoGol(61)'>
+                                <div id="gol61">0</div></button></div></td>
+                            <td>
+                              <div class="d-grid gap-2">
+                                <button type="button" class="btn btn-success" ='chuteCerto(61)'>
+                                  <div id="chuteCerto61">0</div></button>
+                                <button type="button" class="btn btn btn-danger" ='chuteErrado(61)'>
+                                  <div id="chuteErrado61">2</div></button>
+                              </div>
+                            </td>
+                            <td>
+                             <div class="d-grid gap-2">
+                                <button type="button" class="btn btn-success" ='passeCerto(61)'>
+                                  <div id="passeCerto61">0</div></button>
+                                <button type="button" class="btn btn btn-danger" ='passeErrado(61)'>
+                                  <div id="passeErrado61">2</div></button>
+                              </div>
+                            </td>
+                            <td>
+                              <div class="d-grid gap-2">
+                                <button type="button" class="btn btn-success" ='desarmes(61)'>
+                                  <div id="desarmes61">0</div></button>
+                                
+                              </div>
+                            </td>
+                            <td>
+                             <div class="d-grid gap-2">
+                                <button type="button" class="btn btn-success" ='penaltisCerto(61)'>
+                                  <div id="penaltisCerto61">0</div></button>
+                                <button type="button" class="btn btn btn-danger" ='paneltisErrado(61)'>
+                                  <div id="paneltisErrado61">0</div></button>
+                              </div>
+                            </td>
+                            <td>
+                              <div class="d-grid gap-2">
+                                <button type="button" class="btn btn-success" ='shoutCerto(61)'>
+                                  <div id="shoutCerto61">0</div></button>
+                                <button type="button" class="btn btn btn-danger" ='shoutErrado(61)'>
+                                  <div id="shoutErrado61">0</div></button>
+                              </div>
+                              </div>
+                            </td>
+                            
+                          </tr>
+                                                  <tr>
+                            <td><!--img src="img/chat3.png"-->
+                                                                    <br /><img style="border-radius: 10px;" src="http://r4handon.com.br/meudesempenho/files/jogador/file/24/sem-foto.jpg" width="50px" height="50px"> 
+                                 
+                            </td>
+                            <td><strong>Wendrey Nicollas</strong>  <br> Nº --</td>
+                            <td>
+                              <div class="d-grid gap-2">
+                              <button type="button" class="btn btn-success" ='novoGol(62)'>
+                                <div id="gol62">0</div></button></div></td>
+                            <td>
+                              <div class="d-grid gap-2">
+                                <button type="button" class="btn btn-success" ='chuteCerto(62)'>
+                                  <div id="chuteCerto62">0</div></button>
+                                <button type="button" class="btn btn btn-danger" ='chuteErrado(62)'>
+                                  <div id="chuteErrado62">0</div></button>
+                              </div>
+                            </td>
+                            <td>
+                             <div class="d-grid gap-2">
+                                <button type="button" class="btn btn-success" ='passeCerto(62)'>
+                                  <div id="passeCerto62">2</div></button>
+                                <button type="button" class="btn btn btn-danger" ='passeErrado(62)'>
+                                  <div id="passeErrado62">0</div></button>
+                              </div>
+                            </td>
+                            <td>
+                              <div class="d-grid gap-2">
+                                <button type="button" class="btn btn-success" ='desarmes(62)'>
+                                  <div id="desarmes62">0</div></button>
+                                
+                              </div>
+                            </td>
+                            <td>
+                             <div class="d-grid gap-2">
+                                <button type="button" class="btn btn-success" ='penaltisCerto(62)'>
+                                  <div id="penaltisCerto62">0</div></button>
+                                <button type="button" class="btn btn btn-danger" ='paneltisErrado(62)'>
+                                  <div id="paneltisErrado62">0</div></button>
+                              </div>
+                            </td>
+                            <td>
+                              <div class="d-grid gap-2">
+                                <button type="button" class="btn btn-success" ='shoutCerto(62)'>
+                                  <div id="shoutCerto62">0</div></button>
+                                <button type="button" class="btn btn btn-danger" ='shoutErrado(62)'>
+                                  <div id="shoutErrado62">0</div></button>
+                              </div>
+                              </div>
+                            </td>
+                            
+                          </tr>
+                                                  <tr>
+                            <td><!--img src="img/chat3.png"-->
+                                                                    <br /><img style="border-radius: 10px;" src="http://r4handon.com.br/meudesempenho/files/jogador/file/25/sem-foto.jpg" width="50px" height="50px"> 
+                                 
+                            </td>
+                            <td><strong>Willame Gabriell</strong>  <br> Nº --</td>
+                            <td>
+                              <div class="d-grid gap-2">
+                              <button type="button" class="btn btn-success" ='novoGol(63)'>
+                                <div id="gol63">0</div></button></div></td>
+                            <td>
+                              <div class="d-grid gap-2">
+                                <button type="button" class="btn btn-success" ='chuteCerto(63)'>
+                                  <div id="chuteCerto63">0</div></button>
+                                <button type="button" class="btn btn btn-danger" ='chuteErrado(63)'>
+                                  <div id="chuteErrado63">1</div></button>
+                              </div>
+                            </td>
+                            <td>
+                             <div class="d-grid gap-2">
+                                <button type="button" class="btn btn-success" ='passeCerto(63)'>
+                                  <div id="passeCerto63">2</div></button>
+                                <button type="button" class="btn btn btn-danger" ='passeErrado(63)'>
+                                  <div id="passeErrado63">0</div></button>
+                              </div>
+                            </td>
+                            <td>
+                              <div class="d-grid gap-2">
+                                <button type="button" class="btn btn-success" ='desarmes(63)'>
+                                  <div id="desarmes63">2</div></button>
+                                
+                              </div>
+                            </td>
+                            <td>
+                             <div class="d-grid gap-2">
+                                <button type="button" class="btn btn-success" ='penaltisCerto(63)'>
+                                  <div id="penaltisCerto63">0</div></button>
+                                <button type="button" class="btn btn btn-danger" ='paneltisErrado(63)'>
+                                  <div id="paneltisErrado63">0</div></button>
+                              </div>
+                            </td>
+                            <td>
+                              <div class="d-grid gap-2">
+                                <button type="button" class="btn btn-success" ='shoutCerto(63)'>
+                                  <div id="shoutCerto63">0</div></button>
+                                <button type="button" class="btn btn btn-danger" ='shoutErrado(63)'>
+                                  <div id="shoutErrado63">0</div></button>
+                              </div>
+                              </div>
+                            </td>
+                            
+                          </tr>
+                        
+                    </tbody>
+                  </table>
+                </div>
+
+
+              </div>
+            
+          </div>
+         
+               <div class="row">
+            <div class="col-12">
+                <h4>Analise atual da equipe na partida</h4>
+                <table class="table table-striped tb-detalhe">
+                  <tr>
+                    <td>
+                      <strong>Gols:</strong>
+                    </td>
+                    <td><div id="resultadogols">1</div></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <strong>Chutes certos em gol:</strong>
+                    </td>
+                    <td><div id="resultchutecrt">2</div></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <strong>Chutes errados sem direção ao gol:</strong>
+                    </td>
+                    <td><div id="resultchuteerr">5</div></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <strong>Desarmes:</strong>
+                    </td>
+                    <td><div id="resultdesarmes">14</div></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <strong>Penaltis:</strong>
+                    </td>
+                    <td> <span id="resultptcerto"></span> 0/1 <span id="resultptarrado"></span></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <strong>Shout Out:</strong>
+                    </td>
+                    <td> <span id="resultsocerto"></span> 0/0 <span id="resultsoarrado"></span></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <strong>Passes certos no campo adversario:</strong>
+                    </td>
+                    <td> <div id="resultpassesc">6</div></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <strong>Passes errados:</strong>
+                    </td>
+                    <td> <div id="resultpassese">5</div></tr>
+                </table>
+            </div>
+          </div> 
+      
+
+       
+
+        </div>
+    </section>
+
+   
+
+    
+     <footer>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                  
+                  <p class="tp-footer text-center">R4HANDON DIGITAL | meudesempenho - BETA</p>
+                </div>
+            </div>
+           
+        </div>
+    </footer>
+
+    <!-- JavaScript (Opcional) -->
+   <script type="text/javascript" src="https://r4handon.com.br/meudesempenho/public/new/libs/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="https://r4handon.com.br/meudesempenho/public/new/libs/jquery-migrate-3.3.2.min.js"></script>
+    <script type="text/javascript" src="https://r4handon.com.br/meudesempenho/public/new/libs/dist/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="https://r4handon.com.br/meudesempenho/public/new/libs/datatable/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" src="https://r4handon.com.br/meudesempenho/public/new/libs/lightbox/js/lightbox.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"></script>
+
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+   <script type="text/javascript" src="https://r4handon.com.br/meudesempenho/public/new/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+   
+    <script type="text/javascript" src="https://r4handon.com.br/meudesempenho/public/new/libs/geral.js"></script>
+  </body>
+</html>

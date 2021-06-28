@@ -39,7 +39,7 @@
               <div class="col-12">
 
                 <div class="table-responsive">
-                  <table class="table align-middle">
+                  <table class="table align-middle table-striped">
                     <thead>
                       <tr>
                         <th>Foto</th>
@@ -51,13 +51,13 @@
                     </thead>
                     <tbody>
                       <tr>
-                        <td><img src="img/chat3.png"></td>
-                        <td><strong>Ótavio Renan</strong>  </td>
+                         <td><img src="img/atletas/allyson.jpg" width="100"></td>
+                        <td><strong>Allyson</strong>  <br> Nº 07</td>
                         <td>11.02.2021</td>
                         <td> Sub-9 </td>
                         <td>
                           <div class="d-grid gap-2">
-                           <button type="button" class="btn btn-light"><a href="visualizar-jogador.php"><i class="fas fa-eye"></i></a></button>
+                           <a class="btn btn-light" href="visualizar-jogador.php"><i class="fas fa-eye"></i></a>
                            
                           </div>
                         </td>
@@ -65,13 +65,13 @@
                        
                       </tr>
                       <tr>
-                        <td><img src="img/chat3.png"></td>
-                        <td><strong>Ótavio Renan</strong>  </td>
+                        <td><img src="img/atletas/dyego.jpg" width="100"></td>
+                        <td><strong>Dyego</strong>  <br> Nº 4</td>
                         <td>11.02.2021</td>
                         <td> Sub-9 </td>
                         <td>
                           <div class="d-grid gap-2">
-                           <button type="button" class="btn btn-light"><a href="visualizar-jogador.php"><i class="fas fa-eye"></i></a></button>
+                           <a class="btn btn-light" href="visualizar-jogador.php"><i class="fas fa-eye"></i></a>
                            
                           </div>
                         </td>
@@ -79,13 +79,13 @@
                        
                       </tr>
                       <tr>
-                        <td><img src="img/chat3.png"></td>
-                        <td><strong>Ótavio Renan</strong>  </td>
+                       <td><img src="img/atletas/joao.jpg" width="100"></td>
+                        <td><strong>João Luccas</strong>  <br> Nº 21</td>
                         <td>11.02.2021</td>
                         <td> Sub-9 </td>
                         <td>
                           <div class="d-grid gap-2">
-                           <button type="button" class="btn btn-light"><a href="visualizar-jogador.php"><i class="fas fa-eye"></i></a></button>
+                           <a class="btn btn-light" href="visualizar-jogador.php"><i class="fas fa-eye"></i></a>
                            
                           </div>
                         </td>
@@ -93,75 +93,20 @@
                        
                       </tr>
                       <tr>
-                        <td><img src="img/chat3.png"></td>
-                        <td><strong>Ótavio Renan</strong>  </td>
+                        <td><img src="img/atletas/kalleb.jpg" width="100"></td>
+                        <td><strong>Kalleb</strong>  <br> Nº 21</td>
                         <td>11.02.2021</td>
                         <td> Sub-9 </td>
                         <td>
                           <div class="d-grid gap-2">
-                           <button type="button" class="btn btn-light"><a href="visualizar-jogador.php"><i class="fas fa-eye"></i></a></button>
+                           <a class="btn btn-light" href="visualizar-jogador.php"><i class="fas fa-eye"></i></a>
                            
                           </div>
                         </td>
                         <td>
                        
                       </tr>
-                      <tr>
-                        <td><img src="img/chat3.png"></td>
-                        <td><strong>Ótavio Renan</strong>  </td>
-                        <td>11.02.2021</td>
-                        <td> Sub-9 </td>
-                        <td>
-                          <div class="d-grid gap-2">
-                           <button type="button" class="btn btn-light"><a href="visualizar-jogador.php"><i class="fas fa-eye"></i></a></button>
-                           
-                          </div>
-                        </td>
-                        <td>
-                       
-                      </tr>
-                      <tr>
-                        <td><img src="img/chat3.png"></td>
-                        <td><strong>Ótavio Renan</strong>  </td>
-                        <td>11.02.2021</td>
-                        <td> Sub-9 </td>
-                        <td>
-                          <div class="d-grid gap-2">
-                           <button type="button" class="btn btn-light"><a href="visualizar-jogador.php"><i class="fas fa-eye"></i></a></button>
-                           
-                          </div>
-                        </td>
-                        <td>
-                       
-                      </tr>
-                      <tr>
-                        <td><img src="img/chat3.png"></td>
-                        <td><strong>Ótavio Renan</strong>  </td>
-                        <td>11.02.2021</td>
-                        <td> Sub-9 </td>
-                        <td>
-                          <div class="d-grid gap-2">
-                           <button type="button" class="btn btn-light"><a href="visualizar-jogador.php"><i class="fas fa-eye"></i></a></button>
-                           
-                          </div>
-                        </td>
-                        <td>
-                       
-                      </tr>
-                      <tr>
-                        <td><img src="img/chat3.png"></td>
-                        <td><strong>Ótavio Renan</strong>  </td>
-                        <td>11.02.2021</td>
-                        <td> Sub-9 </td>
-                        <td>
-                          <div class="d-grid gap-2">
-                           <button type="button" class="btn btn-light"><a href="visualizar-jogador.php"><i class="fas fa-eye"></i></a></button>
-                           
-                          </div>
-                        </td>
-                        <td>
-                       
-                      </tr>
+                    
                       
 
                       
@@ -180,7 +125,7 @@
           <div class="row">
               <div class="col-12">
                   <div class="d-grid gap-2">
-                    <button type="button" class="btn btn-info btn-lg">FINALIZAR ATIVIDADE</button>
+                    <button type="button" class="btn btn-dark btn-lg">FINALIZAR ATIVIDADE</button>
                   </div>
               </div>
           </div>       

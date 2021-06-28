@@ -39,7 +39,7 @@
 
           <div class="row">
             <div class="col-12">
-               <h6 class="obs-detalhe">Categoria: <span>Sub 09</span> | Fundamento: <span> Desarmes</span> </h6> 
+               <h6 class="obs-detalhe">Categoria: <span>Sub 11</span> | Fundamento: <span> Desarmes</span> </h6> 
             </div>
           </div>
           <div class="row">
@@ -47,7 +47,7 @@
               <div class="col-12">
 
                 <div class="table-responsive">
-                  <table class="table align-middle">
+                  <table class="table align-middle  table-striped">
                     <thead>
                       <tr>
                         <th>Ranking</th>
@@ -61,42 +61,42 @@
                       
                       <tr>
                         <th>1</th>
-                        <th>Lucas</th>
+                        <th>João Luccas</th>
                         <th>20</th>
                         
                       </tr>
                         <tr>
-                        <th>1</th>
-                        <th>Lucas</th>
-                        <th>20</th>
+                        <th>2</th>
+                        <th>Otávio Rennan</th>
+                        <th>16</th>
                         
                       </tr>
                        
                          <tr>
-                        <th>1</th>
-                        <th>Lucas</th>
-                        <th>20</th>
+                        <th>3</th>
+                        <th>F. Mauricio</th>
+                        <th>14</th>
                         
                       </tr>
                        
                          <tr>
-                        <th>1</th>
-                        <th>Lucas</th>
-                        <th>20</th>
+                        <th>4</th>
+                        <th>Fernando Ryan</th>
+                        <th>5</th>
                         
                       </tr>
                        
                          <tr>
-                        <th>1</th>
-                        <th>Lucas</th>
-                        <th>20</th>
+                        <th>5</th>
+                        <th>Davi Lucas</th>
+                        <th>3</th>
                         
                       </tr>
                        
                          <tr>
-                        <th>1</th>
-                        <th>Lucas</th>
-                        <th>20</th>
+                        <th>6</th>
+                        <th>Paulo</th>
+                        <th>2</th>
                         
                       </tr>
                        

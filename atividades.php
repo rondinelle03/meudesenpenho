@@ -39,7 +39,7 @@
               <div class="col-12">
 
              <div class="table-responsive">
-                  <table class="table align-middle">
+                  <table class="table align-middle table-striped">
                     <thead>
                       <tr>
                         <th>Atividades</th>
@@ -54,50 +54,50 @@
                     </thead>
                     <tbody>
                       <tr>
-                        <td>Joan X Ajax - 02.12.2021</td>
-                        <td><h4>20</h4></td>
-                        <td><h4>20</h4></td>
-                        <td><h4>20</h4></td>
-                        <td><h4>20</h4></td>
-                        <td><h4>20</h4></td>
-                        <td><h4>20</h4></td>
-                        <td><h4>20</h4></td>
+                        <td>Joan X Ajax - 02.04.2021</td>
+                        <td><h4>2</h4></td>
+                        <td><h4>5</h4></td>
+                        <td><h4>7</h4></td>
+                        <td><h4>5</h4></td>
+                        <td><h4>4</h4></td>
+                        <td><h4>5</h4></td>
+                        <td><h4>4</h4></td>
+                        
+                       
+                      </tr>
+                       <tr>
+                        <td>Joan X PSG - 14.06.2021</td>
+                       <td><h4>2</h4></td>
+                        <td><h4>5</h4></td>
+                        <td><h4>7</h4></td>
+                        <td><h4>5</h4></td>
+                        <td><h4>4</h4></td>
+                        <td><h4>5</h4></td>
+                        <td><h4>4</h4></td>
                         
                        
                       </tr>
                        <tr>
                         <td>Joan X Ajax - 02.12.2021</td>
-                        <td><h4>20</h4></td>
-                        <td><h4>20</h4></td>
-                        <td><h4>20</h4></td>
-                        <td><h4>20</h4></td>
-                        <td><h4>20</h4></td>
-                        <td><h4>20</h4></td>
-                        <td><h4>20</h4></td>
+                        <td><h4>2</h4></td>
+                        <td><h4>5</h4></td>
+                        <td><h4>7</h4></td>
+                        <td><h4>5</h4></td>
+                        <td><h4>4</h4></td>
+                        <td><h4>5</h4></td>
+                        <td><h4>4</h4></td>
                         
                        
                       </tr>
                        <tr>
                         <td>Joan X Ajax - 02.12.2021</td>
-                        <td><h4>20</h4></td>
-                        <td><h4>20</h4></td>
-                        <td><h4>20</h4></td>
-                        <td><h4>20</h4></td>
-                        <td><h4>20</h4></td>
-                        <td><h4>20</h4></td>
-                        <td><h4>20</h4></td>
-                        
-                       
-                      </tr>
-                       <tr>
-                        <td>Joan X Ajax - 02.12.2021</td>
-                        <td><h4>20</h4></td>
-                        <td><h4>20</h4></td>
-                        <td><h4>20</h4></td>
-                        <td><h4>20</h4></td>
-                        <td><h4>20</h4></td>
-                        <td><h4>20</h4></td>
-                        <td><h4>20</h4></td>
+                       <td><h4>2</h4></td>
+                        <td><h4>5</h4></td>
+                        <td><h4>7</h4></td>
+                        <td><h4>5</h4></td>
+                        <td><h4>4</h4></td>
+                        <td><h4>5</h4></td>
+                        <td><h4>4</h4></td>
                         
                        
                       </tr>

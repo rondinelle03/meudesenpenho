@@ -46,7 +46,7 @@
               <div class="col-12">
 
                 <div class="table-responsive">
-                  <table class="table align-middle">
+                  <table class="table table-striped align-middle">
                     <thead>
                       <tr>
                         <th>Foto</th>
@@ -57,13 +57,13 @@
                         <th>Desarmes</th>
                         <th>Penaltis</th>
                         <th>Shout out</th>
-                        <th>Excluir</th>
+                       
                       </tr>
                     </thead>
                     <tbody>
                       <tr>
-                        <td><img src="img/chat3.png"></td>
-                        <td><strong>Ótavio Renan</strong>  <br> Nº 21</td>
+                        <td><img src="img/atletas/allyson.jpg" width="100"></td>
+                        <td><strong>Allyson</strong>  <br> Nº 07</td>
                         <td>
                           <div class="d-grid gap-2">
                           <button type="button" class="btn btn-success">0</button></div></td>
@@ -97,15 +97,11 @@
                             <button type="button" class="btn btn-danger">0</button>
                           </div>
                         </td>
-                        <td>
-                          <div class="d-grid gap-2">
-                            <button type="button" class="btn btn-light"><i class="far fa-trash-alt"></i></button>
-                          </div>
-                        </td>
+                        
                       </tr>
                       <tr>
-                        <td><img src="img/chat3.png"></td>
-                        <td><strong>Ótavio Renan</strong>  <br> Nº 21</td>
+                        <td><img src="img/atletas/dyego.jpg" width="100"></td>
+                        <td><strong>Dyego</strong>  <br> Nº 4</td>
                         <td>
                           <div class="d-grid gap-2">
                           <button type="button" class="btn btn-success">0</button></div></td>
@@ -139,15 +135,11 @@
                             <button type="button" class="btn btn-danger">0</button>
                           </div>
                         </td>
-                        <td>
-                          <div class="d-grid gap-2">
-                            <button type="button" class="btn btn-light"><i class="far fa-trash-alt"></i></button>
-                          </div>
-                        </td>
+                        
                       </tr>
                       <tr>
-                        <td><img src="img/chat3.png"></td>
-                        <td><strong>Ótavio Renan</strong>  <br> Nº 21</td>
+                        <td><img src="img/atletas/hanry.jpg" width="100"></td>
+                        <td><strong>Hanry</strong>  <br> Nº 11</td>
                         <td>
                           <div class="d-grid gap-2">
                           <button type="button" class="btn btn-success">0</button></div></td>
@@ -181,15 +173,11 @@
                             <button type="button" class="btn btn-danger">0</button>
                           </div>
                         </td>
-                        <td>
-                          <div class="d-grid gap-2">
-                            <button type="button" class="btn btn-light"><i class="far fa-trash-alt"></i></button>
-                          </div>
-                        </td>
+                        
                       </tr>
                       <tr>
-                        <td><img src="img/chat3.png"></td>
-                        <td><strong>Ótavio Renan</strong>  <br> Nº 21</td>
+                        <td><img src="img/atletas/joao.jpg" width="100"></td>
+                        <td><strong>João Luccas</strong>  <br> Nº 21</td>
                         <td>
                           <div class="d-grid gap-2">
                           <button type="button" class="btn btn-success">0</button></div></td>
@@ -223,15 +211,11 @@
                             <button type="button" class="btn btn-danger">0</button>
                           </div>
                         </td>
-                        <td>
-                          <div class="d-grid gap-2">
-                            <button type="button" class="btn btn-light"><i class="far fa-trash-alt"></i></button>
-                          </div>
-                        </td>
+                        
                       </tr>
                       <tr>
-                        <td><img src="img/chat3.png"></td>
-                        <td><strong>Ótavio Renan</strong>  <br> Nº 21</td>
+                        <td><img src="img/atletas/kalleb.jpg" width="100"></td>
+                        <td><strong>Kalleb</strong>  <br> Nº 21</td>
                         <td>
                           <div class="d-grid gap-2">
                           <button type="button" class="btn btn-success">0</button></div></td>
@@ -265,11 +249,7 @@
                             <button type="button" class="btn btn-danger">0</button>
                           </div>
                         </td>
-                        <td>
-                          <div class="d-grid gap-2">
-                            <button type="button" class="btn btn-light"><i class="far fa-trash-alt"></i></button>
-                          </div>
-                        </td>
+                        
                       </tr>
                        
                        
@@ -289,23 +269,62 @@
           <div class="row">
             <div class="col-12">
                 <h4>Analise atual da equipe na partida</h4>
-                <ul>
-                  <li><strong>Gols:</strong> 0</li>
-                  <li><strong>Chutes certos em gol:</strong> 0</li>
-                  <li><strong>Chutes errados sem direção ao gol:</strong> 0</li>
-                  <li><strong>Desarmes:</strong> 0</li>
-                  <li><strong>Penaltis:</strong> 2 / 0</li>
-                  <li><strong>Shout Out:</strong> 2 / 0</li>
-                  <li><strong>Passes certos no campo adversario:</strong> 0</li>
-                  <li><strong>Passes errados:</strong> 0</li>
-                </ul>
+                <table class="table table-striped tb-detalhe">
+                  <tr>
+                    <td>
+                      <strong>Gols:</strong>
+                    </td>
+                    <td> 0</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <strong>Chutes certos em gol:</strong>
+                    </td>
+                    <td> 0</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <strong>Chutes errados sem direção ao gol:</strong>
+                    </td>
+                    <td> 0</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <strong>Desarmes:</strong>
+                    </td>
+                    <td> 0</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <strong>Penaltis:</strong>
+                    </td>
+                    <td> 2 / 0</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <strong>Shout Out:</strong>
+                    </td>
+                    <td> 2 / 0</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <strong>Passes certos no campo adversario:</strong>
+                    </td>
+                    <td> 0</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <strong>Passes errados:</strong>
+                    </td>
+                    <td> 0</tr>
+                </table>
             </div>
           </div>   
 
           <div class="row">
               <div class="col-12">
                   <div class="d-grid gap-2">
-                    <button type="button" class="btn btn-info btn-lg">FINALIZAR ATIVIDADE</button>
+                    <button type="button" class="btn btn-dark btn-lg">FINALIZAR ATIVIDADE</button>
                   </div>
               </div>
           </div>       

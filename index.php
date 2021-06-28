@@ -40,7 +40,7 @@
                     <!--<label for="inputPassword" id="blc-senha" >SENHA <span><a href="">esqueceu a senha?</a></span></label>-->
                     <input type="password" id="inputPassword" class="form-control form-control-lg"  required="">
                     
-                    <button class=" btn btn-lg btn-dark" type="submit">Sign in</button>
+                    <button class=" btn btn-lg btn-dark" type="submit">Acessar</button>
                     <p class="marca-rodape">Desenvolvido pela R4HANDON</p>
                   </form>
                 </main>

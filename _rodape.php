@@ -5,7 +5,7 @@
             <div class="row">
                 <div class="col-12">
                   
-                  <p class="tp-footer text-center">R4HANDON DIGITAL | meudesepenho - BETA</p>
+                  <p class="tp-footer text-center">R4HANDON DIGITAL | meudesempenho - BETA</p>
                 </div>
             </div>
            
